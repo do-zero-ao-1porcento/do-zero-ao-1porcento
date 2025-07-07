@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Guia prático de como um jovem de 15 anos saiu do zero e passou a faturar R$3.000 por dia com vendas na internet." />
+  <title>Do Zero ao 1% – João</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #eee;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.7);
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #ffb347;
+      text-align: center;
+      margin-bottom: 15px;
+      text-shadow: 0 0 10px #ffb347;
+    }
+
+    h2 {
+      color: #ffcc80;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ffb347;
+      padding-bottom: 6px;
+    }
+
+    p {
+      font-size: 1.15rem;
+      margin-bottom: 20px;
+      color: #ddd;
+    }
+
+    strong {
+      color: #ffd54f;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 30px;
+      padding-left: 0;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+      padding-left: 30px;
+      position: relative;
+      font-weight: 600;
+      color: #fff;
+    }
+
+    ul li::before {
+      content: "✅";
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 1.2rem;
+      color: #ffcc80;
+      line-height: 1;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 30px auto;
+      background: #ffb347;
+      color: #111;
+      font-weight: 700;
+      font-size: 1.3rem;
+      padding: 18px 0;
+      text-align: center;
+      border-radius: 40px;
+      text-decoration: none;
+      box-shadow: 0 6px 15px #ffb347aa;
+      transition: background 0.3s ease, transform 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background: #ffc966;
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px #ffc966cc;
+    }
+
+    .img {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .img img {
+      width: 100%;
+      max-width: 720px;
+      border-radius: 16px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.8);
+      object-fit: cover;
+    }
+
+    .bonus {
+      background: #322f2f;
+      border-left: 5px solid #ffb347;
+      padding: 20px 25px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      color: #fff9e6;
+      font-weight: 600;
+    }
+
+    .price {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffeb3b;
+      font-weight: 700;
+      text-shadow: 0 0 10px #ffeb3b;
+    }
+
+    .price del {
+      color: #bbb;
+      margin-right: 15px;
+      font-weight: 400;
+      text-decoration-thickness: 3px;
+    }
+
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    /* Responsividade */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      h2 {
+        font-size: 1.2rem;
+      }
+
+      p, ul li {
+        font-size: 1rem;
+      }
+
+      .btn {
+        font-size: 1.1rem;
+        max-width: 100%;
+        padding: 14px 0;
+      }
+
+      .container {
+        padding: 20px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <h1>Do Zero ao 1%</h1>
+    <p>O guia direto e realista de como um jovem de 15 anos saiu do zero e passou a faturar <strong>R$3.000 por dia</strong> com vendas na internet.</p>
+    
+    <div class="img">
+      <img src="https://via.placeholder.com/720x360.png?text=Imagem+do+Faturamento+ou+Capa+do+eBook" alt="Imagem do eBook ou print de resultado" />
+    </div>
+
+    <p>Meu nome é João. Com 12 anos, decidi que não ia aceitar viver uma vida comum. Hoje, com 15, já movimentei mais de <strong>R$1.000.000</strong> com vendas online — e tudo isso de forma honesta e legal.</p>
+
+    <h2>O que você vai aprender:</h2>
+    <ul>
+      <li>Como sair do absoluto ZERO (sem dinheiro, sem contatos)</li>
+      <li>Estratégias práticas para gerar vendas diariamente</li>
+      <li>O método que me levou de 0 a R$3.000 por dia</li>
+      <li>Como criar uma oferta que ninguém ignora</li>
+      <li>Como usar Instagram e WhatsApp para fechar vendas</li>
+    </ul>
+
+    <section class="bonus" aria-label="Bônus exclusivo">
+      <h2>Bônus Exclusivo 🎁</h2>
+      <p>Você ainda leva o <strong>Checklist da Liberdade Financeira</strong> — um guia prático com o passo a passo diário para aplicar tudo e já ver resultado.</p>
+    </section>
+
+    <p class="price"><del>R$97</del> <span>R$19,90</span> por tempo limitado!</p>
+
+    <a href="https://pay.kiwify.com.br/qQ4a1eY" target="_blank" rel="noopener noreferrer" class="btn" role="button" aria-label="Comprar eBook Do Zero ao 1%">QUERO MEU EBOOK AGORA</a>
+
+    <p style="text-align: center; margin-top: 10px;">100% legal, direto ao ponto e criado por quem faz todos os dias.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 João • Todos os direitos reservados<br />
+    Página criada com propósito de ajudar jovens empreendedores a conquistarem sua liberdade financeira.
+  </footer>
+</body>
+</html>
